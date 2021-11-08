@@ -2,7 +2,7 @@
 
 module.exports.handler = async (event) => {
   console.log('Event: ', event);
-  let responseMessage = 'Hello, World!-SANTOSH';
+  let responseMessage = 'Hello, World!-Test';
 
   return {
     statusCode: 200,
